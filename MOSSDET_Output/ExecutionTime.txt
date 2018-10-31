@@ -1,0 +1,2 @@
+FileNr	File	SamplingRate (Hz)	SignalLength (s)	Nr. Channels	RunTime (ms) 
+1	C:\\Users\\lachner\\Documents\\MOSSDET_c\\mattest.mat	2000	600	1	5694

@@ -1,0 +1,11 @@
+Channel	DateAndTime	DayNr	MinNr	MinsAvg	Ripples/Min	FR/Min	HFO/Min	IES/Min	IES-Ripples/Min	IES-FR/Min	IES-HFO/Min	SS-Ripples/Min	SS-FR/Min	SS-HFO/Min
+mattest	d	0	1	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	2	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	3	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	4	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	5	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	6	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	7	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	8	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	9	1	0	0	0	0	0	0	0	0	0	0
+mattest	d	0	10	1	1	0	1	0	0	0	0	0	0	0
