@@ -18,4 +18,4 @@ Row three: Detection end-time in seconds
 
 - The file callMOSSDET.m provides an example on how to call the executable MOSSDET_c.exe
 - The file mattest.m provides an example of the expected input data:a signal from a single channel in the form of a row-vector
-- The folder MOSSDET_Output provides an exampel of the generated output
+- The folder MOSSDET_Output provides an example of the generated output
