@@ -3,13 +3,13 @@
 This MATLAB compatible executable reads row-vectors corresponding to a signal from a single channel. The detections are output as a matrix with 3 rows corresponding to:
 
 Row one: Code for the detection class:
-Ripple and FR only(1)
-Ripple only(2)
-FR only (3)
-Spike only (4)
-Spike and Ripple and FR only (5)
-Spike and Ripple only (6)
-Spike and FR only (7)
+- Ripple and FR only(1)
+- Ripple only(2)
+- FR only (3)
+- Spike only (4)
+- Spike and Ripple and FR only (5)
+- Spike and Ripple only (6)
+- Spike and FR only (7)
 
 Row two:  Detection start time in seconds
 
