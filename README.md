@@ -1,6 +1,6 @@
 # MOSSDET_c
 
-This MATLAB compatible executable reads row-vectors corresponding to a signal from a single channel. The detections are output as a matrix with 3 rows corresponding to:
+This MATLAB compatible 64 bit executable reads row-vectors corresponding to a signal from a single channel. The detections are output as a matrix with 3 rows corresponding to:
 
 **Row one: Code for the detection class:**
 - Ripple and FR only(1)
