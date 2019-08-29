@@ -1,3 +1,0 @@
-SignalDuration:	600
-Data	Description	ChannelName	ChannelNr.	StartTime(s)	EndTime(s)	Duration(s)	DayNr.	StartTime(day)	EndTime(day)	Match
-d:	Ripple	mattest	0	599.8375	599.9125	0.07500000000004547	0	0:9:59.83749999999998	0:9:59.91250000000002	0
