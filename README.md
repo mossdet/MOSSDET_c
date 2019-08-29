@@ -8,6 +8,7 @@ This MATLAB compatible 64 bit executable reads row-vectors corresponding to a si
 - Spikes (3)
 
 **Row two:  Detection start time in seconds**
+
 **Row three: Detection end-time in seconds**
 
 
