@@ -12,9 +12,6 @@ This MATLAB compatible 64 bit executable reads row-vectors corresponding to a si
 **Row three: Detection end-time in seconds**
 
 
-- The file MATLAB_MOSSDET_Example.m provides an example on how to call the executable MOSSDET_c.exe
-- The file mattest.m provides an example of the expected input data:a signal from a single channel in the form of a row-vector
-
-
+- The files DLP_MicromedReader.m and detectHFO.m provide an example on how to call the executable MOSSDET_c.exe and read different file formats using the field trip toolbox (http://www.fieldtriptoolbox.org/).
 
 Publication on the detectors: https://iopscience.iop.org/article/10.1088/1741-2552/ab4560/meta
