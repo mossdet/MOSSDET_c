@@ -67,18 +67,9 @@ function hfoDetections = detectHFO(hfoDetectorFolder, hfoSignal, samplingRate, m
     if plotOK > 0
         %transform to uV
         hfoSignal = hfoSignal*1000*1000;
-
-        %eleiminate dc drifts
-        order = 512;
-        filterDelay = order/2;
-        h = fir1(order/2, [20/(samplingRate/2) 500/(samplingRate/2)], 'bandpass'); % 'low' | 'bandpass' | 'high' | 'stop' | 'DC-0' | 'DC-1'
-        hfoSignal = filter(h, 1, flip(hfoSignal));
-        hfoSignal = filter(h, 1, flip(hfoSignal));
-        hfoSignal(1:filterDelay) = hfoSignal(filterDelay+1);
-        hfoSignal(end-filterDelay:end) = hfoSignal(end-filterDelay-1);
         
         %Variables from the complete signal
-        order = 512;
+        order = 128;
         filterDelay = order/2;
         h = fir1(order/2, [80/(samplingRate/2) 500/(samplingRate/2)], 'bandpass'); % 'low' | 'bandpass' | 'high' | 'stop' | 'DC-0' | 'DC-1'
         filteredHFO_SignalWhole = filter(h, 1, flip(hfoSignal));
