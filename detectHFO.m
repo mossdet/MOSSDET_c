@@ -197,6 +197,7 @@ function hfoDetections = detectHFO(hfoDetectorFolder, hfoSignal, samplingRate, m
                 set(hl,'LineWidth',5);
 
                 subplot(4,1,3)
+                rawSignal = detrend(rawSignal);
                 hfoPlot = plot(time, rawSignal,'k','LineWidth',0.01); hold on;
                 hfoPlot.Color(4) = 0.2;
                 nrEOI = 0;
@@ -212,6 +213,7 @@ function hfoDetections = detectHFO(hfoDetectorFolder, hfoSignal, samplingRate, m
                 title('IES', 'FontSize',20)
                 xlim([min(time) max(time)])
                 xlabel('Time (s)')
+                ylabel('Amplitude (uV)')
                 [~, hobj, ~, ~] = legend('Raw',  strcat('IES Detections (', num2str(nrEOI), ')'), 'FontSize',16, 'Box', 'off');
                 hl = findobj(hobj,'type','line');
                 set(hl,'LineWidth',5);
@@ -226,7 +228,6 @@ function hfoDetections = detectHFO(hfoDetectorFolder, hfoSignal, samplingRate, m
                 %colorbar
                 xlabel('Time (s)')
                 ylabel('Frequency (Hz)')
-                set(gca,'yscale','log')
                 set(gcf,'Colormap',jet)
                 set(gca,'XLim',[min(time) max(time)], 'YLim',[min(frq) max(frq)],'XGrid','On', 'YGrid','On')
                 colorbar('east', 'AxisLocation','in', 'Color', 'w', 'FontSize', 12)
